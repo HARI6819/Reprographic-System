@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIT REPRO |</title>
+    <link rel="stylesheet" href="reprostyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <!-- Skeleton Loader -->
+  <div id="skeleton-loader">
+      <div class="skeleton-header"></div>
+      <div class="skeleton-banner"></div>
+      <div class="skeleton-boxes"></div>
+      <div class="skeleton-boxes"></div>
+      <div class="skeleton-boxes"></div>
+  </div>
+
+  <header>
+      <nav>
+        <input type="checkbox" id="ch">
+        <label for="ch" class="menu"><i class='bx bx-menu'></i></label>
+          <label>
+              BITREPRO
+          </label>
+          <ul>
+              <li><a class="active" href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#contact">Contact us</a></li>
+          </ul>
+      </nav>
+  </header>
+  
+  <!-- The rest of your original content -->
+
+    <section id="home">
+        <div class="container1">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8aCcT-eb5flCsl6msaJ5hpRr4X2nbD5CQK0xaWTMbT2nuzV8XaMxbM07my_KQoieT9VAvGu4mXXc2JX1lKKJEmgOma6YXIFz0dCuBiNspZDAm-1YQ43Rvo89oFJcsONN9pP1HlpqfPiajo0UpKaiKOAbZncgK38SgUND-xe2zenswD0Tqt3IeDYc00g/w2224-h890/home_page.png">
+          <h1 class="copyy">Copy & Printing</h1> 
+        </div>
+        
+        <div class="container2">
+          <section id="about">
+          <div class="cont1">
+            <img src="https://st4.depositphotos.com/18745344/20812/i/450/depositphotos_208127642-stock-photo-blurry-light-design-background-teamwork.jpg" style="height: 100%; width: 100%;">
+          </div>
+         
+          <div class="cont2">
+            <h1 class="aboutus">ABOUT US</h1>
+            <hr>
+            <p class="aboutp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate hic possimus soluta voluptatibus? Maiores assumenda excepturi repudiandae officiis necessitatibus</p>
+          </div>
+        </section>
+        </div>
+    </section>
+    <section>
+        <div class="container3">
+         <div class="box-container">
+          <a href="repro1.php" ><div class="box"><img src="https://img.freepik.com/premium-photo/electronic-device-inkjet-printer-white-background_145644-15549.jpg" style="background-position: center; background-size: cover; height: 100%; width: 100%;"><h1>AS BLOCK 1</h1></div></a>
+          <a href="repro2.php" ><div class="box"><img src="https://img.freepik.com/premium-photo/electronic-device-inkjet-printer-white-background_145644-15549.jpg" style="background-position: center; background-size: cover; height: 100%; width: 100%;"><h1>AS BLOCK 2</h1></div></a>
+          <a href="repro3.php" ><div class="box"><img src="https://img.freepik.com/premium-photo/electronic-device-inkjet-printer-white-background_145644-15549.jpg" style="background-position: center; background-size: cover; height: 100%; width: 100%;"><h1>AS BLOCK 3</h1></div></a>
+          <a href="repro4.php" ><div class="box"><img src="https://img.freepik.com/premium-photo/electronic-device-inkjet-printer-white-background_145644-15549.jpg" style="background-position: center; background-size: cover; height: 100%; width: 100%;"><h1>MECH</h1></div></a>
+          <a href="repro5.php" ><div class="box"><img src="https://img.freepik.com/premium-photo/electronic-device-inkjet-printer-white-background_145644-15549.jpg" style="background-position: center; background-size: cover; height: 100%; width: 100%;"><h1>IB BLOCK</h1></div></a>
+         </div>
+        </div>
+    </section>
+    <footer>
+      <section id="contact">
+        <div class="lastbox">
+          <p>Created By ________ | 2024</p>
+        </div>
+    </section>
+    </footer>
+   
+</body>
+</html>
+<script>
+  // Wait for the full page to load before hiding the skeleton loader
+window.addEventListener("load", function() {
+    const skeletonLoader = document.getElementById("skeleton-loader");
+
+    // Hide the skeleton loader after a slight delay for a smooth transition
+    setTimeout(function() {
+        skeletonLoader.style.visibility = "hidden";
+    }, 5000); // Adjust delay if necessary
+});
+
+</script>
